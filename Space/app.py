@@ -1,7 +1,7 @@
 from transformers import pipeline
 import gradio as gr
 
-pipe = pipeline(model="MehdiAbdellaoui/whisper-small-sv")  # change to "your-username/the-name-you-picked"
+pipe = pipeline(model="explorall/whisper-small-sv")  # change to "your-username/the-name-you-picked"
 
 def transcribe(audio):
     text = pipe(audio)["text"]
