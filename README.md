@@ -1,4 +1,4 @@
-# ScalableML-Lab2$
+# ScalableML-Lab2
 
 Interaction with the model can be done on this link : https://huggingface.co/spaces/MehdiAbdellaoui/Whisper
 
