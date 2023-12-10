@@ -26,7 +26,7 @@ The feature pipeline dowloads the dataset from Huggingface mozilla-foundation/co
 
 ## Training pipeline
 
-The training pipeline downloads our processed data set and a processor from Huggingface and then creates a data collator. It then defines the wer metric to use for testing and downloads a pretrained whisper model. Finally we define training parameters and start the training. The training is done in 4000 steps and use checkpoints uploaded to Huggingface.
+The training pipeline downloads our processed data set and a processor from Huggingface and then creates a data collator. It then defines the *WER* metric to use for testing and downloads a pretrained whisper model. Finally we define training parameters and start the training. The training is done in 4000 steps and use checkpoints uploaded to Huggingface.
 
 ## Inference pipeline
 
