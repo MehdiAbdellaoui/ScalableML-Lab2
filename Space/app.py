@@ -19,7 +19,7 @@ def transcribe_and_translate_yt(link):
     
 with gr.Blocks() as demo:
     with gr.Tab("Real-time Swedish to English Transcription and Translation"):
-        audio = gr.Audio(source="microphone", type="filepath")
+        audio = gr.Audio(sources=["microphone", "upload"], type="filepath")
         rt_outputs = [gr.Textbox(), gr.Textbox()]
         rt_button = gr.Button('Transcribe and Translate')
 
