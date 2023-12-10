@@ -8,7 +8,7 @@ Interaction with the model can be done on this link : https://huggingface.co/spa
 With significantly more time and less limited computing resources, a hyperparameter search can be done in order to find the set which gives the best performance. Since we were limited in resources we instead opted to apply dropout in order to improve the model performance. Specifically we chose to use a dropout rate of 15% when training the model.
 
 ### Data centric improvements
-We only used the data from the mozilla-foundation/common_voice_11_0 dataset. The reliability of the model could be improved in a few ways. We could make sure to include many different dialects. We could also include noisy data by either using a data set with noisy data or adding noise to our own dataset by applying data augmentation. It could also be a good idea to simply exend the dataset with more samples.
+We only used the data from the mozilla-foundation/common_voice_11_0 dataset. The reliability of the model could be improved in a few ways. We could make sure to include many different dialects. We could also include noisy data by either using a data set with noisy data or adding noise to our own dataset by applying data augmentation. It could also be a good idea to simply extend the dataset with more samples.
 
 ### Results
 
